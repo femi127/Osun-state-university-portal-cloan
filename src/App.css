@@ -1,0 +1,81 @@
+.App{
+  margin: 0 10% 0 10%;
+
+}
+.secondApp{
+  background-color: rgb(235,245,216);
+  display: flex;
+  /* justify-items: baseline; */
+  /* box-sizing: border-box; */
+  /* padding: 10px 10px 0 0; */
+}
+.over_mouse{
+  color: rgb(0,102,0);
+  text-decoration: none;
+  font-weight: bold;
+}
+.over_mouse:hover{
+  color: rgb(155,136,4);
+  text-decoration: underline;
+}
+.mouse_over{
+  color: rgb(0,102,0);
+  text-decoration: none;
+}
+.mouse_over:hover{
+  color: rgb(155,136,4);
+  text-decoration: underline;
+}
+@keyframes flashText {
+  0%, 49% { color: rgb(0,102,0); }
+  50%, 100% { color: red; }
+}
+.cusorBTN{
+  color: rgb(0,102,0);
+  text-decoration: none;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 12px;
+  animation: flashText 2s linear infinite;
+
+}
+.cusorBTN:hover{
+  color: rgb(204,0,0);
+  text-decoration: underline;
+  
+}
+.welcome-container{
+  width: 80%; 
+  padding: 0 5% 5% 2%;
+}
+.header{
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  background: url('./Assect/Header.jpg') no-repeat;
+  position: relative;
+  height: 164px;
+  color: #060;
+}
+.body-div{
+  float: none;
+  width: 990px;
+  position: relative;
+  background-color: #EBF5D8;
+}
+.sideBar-top{
+  background: url('./Assect/sidebar-top.jpg') no-repeat top;
+  background-repeat: no-repeat;
+}
+.sideBar-bottom{
+
+  background: url('./Assect/sidebar-bot.jpg') no-repeat bottom;
+}
+.side-bar{
+  width: 278px;
+  margin: 10px 0 5px 0;
+  padding: 0px;
+  background: #fff url('./Assect/sidebar-bg.jpg') repeat-y;
+}

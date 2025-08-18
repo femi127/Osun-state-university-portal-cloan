@@ -1,34 +1,57 @@
 import React from 'react';
 import HeaderIMG from './HeaderIMG';
+import Footer from './Footer';
+import Student_icon from '../Assect/Student_icon.jpg';
 import '../App.css';
 const PasswordReset = () => {
   return (
 
     <>
-        <div style={{width:'990px', margin:'0 auto', textAlign:'left'}}>
+        <div className='PasswordReset_main_div'>
             {<HeaderIMG />}
             <div className='body-div'>
-                <div style={{margin:'0 0 0 1%'}}>
-                  <p style={{
-                      backgroundColor: 'rgb(216,237,180)',
-                      // padding: '2% 1% 0 0',
-                      borderBottom: '1px solid rgb(153,153,153)',
-                      color: 'rgb(182,146,10)',
-                      fontSize: '20px',
-                      fontWeight: '500',
-                      }}>Student Portal Password Reset
-                  </p>
+                <div className='left_div'></div>
+                <div className='middle_div'>  
+                  <div><p className='student_portal_password'>Student Portal Password Reset</p></div>
+                  <div>
+                    <form action="" method="post">
+                      <div>
+                        <img src={Student_icon} className='studentICON' alt="student icon" />
+                      </div>
+                      <div>
+                        <div><p className='provide_email'>Provide your email address in the box below</p> </div>
+                        <div style={{display:'flex'}} className='email_address_flex'>
+                          <div>
+                            <label className='Email_Address'>Email Address:</label>
+                            </div>
+                          <div>
+                            <div><input type="email" name="email"  required /></div>
+                            <div> <p className='youATexample'>
+                              e.g: you@example.com <br />
+                              Please note that the email address required here is the email<br />address you submitted on your profile.
+                            </p>
+                            <button type='submit'>Submit</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
                 </div>
-                <div style={{width:'30%'}}>
+                <div style={{width:'30%',}}>
                   <div className='side-bar'>    
                      <div className='sideBar-top'>&nbsp;</div>
-                      <ul>
-                        <li><span>Please log in!</span></li>
+                      <ul className='sideBar-ul'>
+                        <li><span className='Please_Log_in'>Please Log in!</span></li>
                       </ul>
+                      <p>
+                        <br /><br /><br /><br /><br /><br />
+                      </p>
                      <div className='sideBar-bottom'>&nbsp;</div> 
                   </div>
                </div>
-            </div>            
+            </div> 
+            {<Footer/>}           
         </div>
     </>
   )

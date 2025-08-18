@@ -38,7 +38,7 @@ function Leftpage() {
                                 </div>
             
                             </div>
-                              <p style={{fontSize:'12px'}}> If you forgot your password, <Link to={'/password'} className='mouse_over'>Click here </Link>  to recover it</p> 
+                              <p style={{fontSize:'12px'}}> If you forgot your password, <Link to={'/passwordReset'} className='mouse_over'>Click here </Link>  to recover it</p> 
                         </div>
                     
                 </div>

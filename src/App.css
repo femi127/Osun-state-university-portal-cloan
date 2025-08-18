@@ -59,23 +59,89 @@
   height: 164px;
   color: #060;
 }
+
+
+/* BEGIN OF PASSWORD RESET PAGE  */
+.PasswordReset_main_div{
+  width: 990px;
+  margin: 0 auto;
+  background-color: #d8edb4;
+}
 .body-div{
-  float: none;
+  display: flex;
   width: 990px;
   position: relative;
   background-color: #EBF5D8;
+}
+.left_div{
+  width: 100px;
+  vertical-align: top;
+  background-color: rgb(216, 237, 180);
+}
+.middle_div{
+  width: 790px;
+  vertical-align: top;
+  background-color: #EBF5D8;
+  padding: 0px 20px 0 15px;
+  border-spacing: 5px;
+  color: #333;
+}
+.student_portal_password{
+  background-color: rgb(216,237,180);
+  padding: 10px 2px 2px 10px;
+  border-bottom: 1px solid #999;
+  color: #B6920A;
+  font: normal 20px tahoma, arial, Helvetica, sans-serif, Trebuchet MS;
+}
+.studentICON{
+  width: 150px;
+  height: 110px;
+  padding: 5px 10px 0 0;
+  float: left;
+}
+.provide_email{
+  color: rgb(155,136,4);
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+}
+.email_address_flex{
+  display: flex;
+}
+.Email_Address{
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+}
+.youATexample{
+  font-size: 12px;
+  color: #ff0000ff;
+  margin-top: 5px;
+}
+.side-bar{
+  width: 278px;
+  margin: 10px 5px 5px 0;
+  padding: 0px;
+  background: #fff url('./Assect/sidebar-bg.jpg') repeat-y;
+  float: right;
+  line-height: 150%;
 }
 .sideBar-top{
   background: url('./Assect/sidebar-top.jpg') no-repeat top;
   background-repeat: no-repeat;
 }
+.sideBar-ul{
+  list-style-type: none;
+  padding-right: 10px;
+  color: rgb(0,51,0);
+}
+.Please_Log_in{
+  color: rgb(0,51,0);
+  font-weight: bold;
+  font-stretch: expanded;
+  font-family: "Trebuchet MS", Arial, Tahoma, Sans-serif;
+}
 .sideBar-bottom{
-
   background: url('./Assect/sidebar-bot.jpg') no-repeat bottom;
 }
-.side-bar{
-  width: 278px;
-  margin: 10px 0 5px 0;
-  padding: 0px;
-  background: #fff url('./Assect/sidebar-bg.jpg') repeat-y;
-}
+/* END OF PASSWORD REST PAGE  */

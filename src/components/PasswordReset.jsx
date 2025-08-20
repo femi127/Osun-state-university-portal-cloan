@@ -5,7 +5,6 @@ import Student_icon from '../Assect/Student_icon.jpg';
 import '../App.css';
 const PasswordReset = () => {
   return (
-
     <>
         <div className='PasswordReset_main_div'>
             {<HeaderIMG />}

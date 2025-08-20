@@ -1,22 +1,85 @@
+/* BEGINING FULLPage  */
 .App{
-  margin: 0 10% 0 10%;
+    width: 990px;
+  margin: 0 auto;
+  background-color: #d8edb4;
 
 }
 .secondApp{
   background-color: rgb(235,245,216);
   display: flex;
-  /* justify-items: baseline; */
-  /* box-sizing: border-box; */
-  /* padding: 10px 10px 0 0; */
 }
-.over_mouse{
-  color: rgb(0,102,0);
-  text-decoration: none;
+/* ENDING FULLPage */
+
+
+/* BEGINING OF LeftPage */
+.welcome-container{
+  width: 80%; 
+  padding: 0 5% 5% 2%;
+}
+.STUdent_porTAL{
+  background-color: rgb(216,237,180);
+  padding: 2% 0 0 0;
+  border-bottom: 1px solid rgb(153,153,153);
+  color: rgb(182,146,10);
+  font-size: 20px;
+  font-weight: 500;
+  font: normal 20px tahoma, arial, Helvetica, sans-serif, Trebuchet MS;
+}
+.main_container{
+  display: flex;
+  align-items: center;
+}
+.authent_Div{
+  margin: 0 0 0 10px;
+}
+.authenticantion{
+  font-size: 15px;
   font-weight: bold;
-}
-.over_mouse:hover{
   color: rgb(155,136,4);
-  text-decoration: underline;
+}
+.row_Flex{
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.right-alignment{
+  text-align: right;
+}
+.matric-utme-de{
+  font-weight: bold;
+  color: rgb(51,51,51);
+  font-size: 12px;
+}
+.input-field{
+  border: 1px solid black;
+  width: 150px;
+  padding: 6px 3px;
+  border-radius: 3px;
+}
+.input-field:focus{
+  outline: none;
+}
+.input-field:hover{
+  background-color: rgb(232,240,254);
+}
+.p-a-s-s-word{
+  border: 1px solid black;
+  margin-top: 3px;
+  width: 150px;
+  padding: 6px 3px;
+  border-radius: 3px;
+}
+.p-a-s-s-word:hover{
+  background-color: rgb(232,240,254);
+}
+.btn_login{
+ padding: 5px;
+  margin-top: 3px;
+}
+.if_passworForget{
+  font-size: 12px;
+  text-decoration: none;
 }
 .mouse_over{
   color: rgb(0,102,0);
@@ -26,9 +89,12 @@
   color: rgb(155,136,4);
   text-decoration: underline;
 }
-@keyframes flashText {
-  0%, 49% { color: rgb(0,102,0); }
-  50%, 100% { color: red; }
+.impot_not{
+  font-weight: bold;
+  font-size: 12px;
+}
+.note-hence{
+  font-size: 12px;
 }
 .cusorBTN{
   color: rgb(0,102,0);
@@ -39,17 +105,77 @@
   font-weight: bold;
   font-size: 12px;
   animation: flashText 2s linear infinite;
-
+}
+@keyframes flashText {
+  0%, 49% { color: rgb(0,102,0); }
+  50%, 100% { color: red; }
 }
 .cusorBTN:hover{
   color: rgb(204,0,0);
   text-decoration: underline;
-  
 }
-.welcome-container{
-  width: 80%; 
-  padding: 0 5% 5% 2%;
+.if-enquiry{
+  color: rgb(204,22,38);
+  font-weight: bold;
 }
+.boldtext{
+  color: #cc1626;
+}
+/* ENDING OF LeftPage */
+
+
+/* BEGINING OF RightPage */
+.aboutus-container{
+  width: 278px;
+  margin: 10px 5px 5px 0;
+  padding: 0px;
+  background: #fff url('./Assect/sidebar-bg.jpg') repeat-y;
+  float: right;
+  line-height: 150%;
+}
+.sideBar-top_right_Page{
+  background: url('./Assect/sidebar-top.jpg') no-repeat top;
+  background-repeat: no-repeat;
+}
+.sidebar_bar_ul{
+  list-style-type: none;
+  padding-right: 10px;
+}
+.welcome_p{
+  color: rgb(0,51,0);
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: expanded;
+}
+.important_Notice_Payment{
+  line-height: 1.5;
+  font-size: 12px;
+  margin: 0;
+  text-align: left;
+}
+.over_mouse{
+  color: rgb(0,102,0);
+  text-decoration: none;
+  font-weight: bold;
+}
+.over_mouse:hover{
+  color: rgb(155,136,4);
+  text-decoration: underline;
+}
+.important_notice{
+  display: block;
+  margin: 0 auto;
+  border: 1px solid rgb(0,102,0);
+  width: 181;
+  height: auto;
+}
+.sideBar-bottom_right_Page{
+  background: url('./Assect/sidebar-bot.jpg') no-repeat bottom;
+}
+/* ENDING RIGHTPage CSS */
+
+
+/* BEGINING OF HeaderIMG PAGE */
 .header{
   pointer-events: none;
   user-select: none;
@@ -59,6 +185,7 @@
   height: 164px;
   color: #060;
 }
+/* ENDING OF HeaderIMG PAGE */
 
 
 /* BEGIN OF PASSWORD RESET PAGE  */

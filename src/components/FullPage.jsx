@@ -1,5 +1,5 @@
 import React from 'react'
-import AboutUs from "./RightPage";
+import RightPage from "./RightPage";
 import LeftPage from "./LeftPage";
 import HeaderIMG from "./HeaderIMG";
 import Footer from "./Footer";
@@ -11,7 +11,7 @@ const FullPage = () => {
                 {<HeaderIMG />}
             <div className="secondApp">
                 {<LeftPage/>}
-                {<AboutUs/>}
+                {<RightPage/>}  
             </div>
                 {<Footer/>}
         </div>

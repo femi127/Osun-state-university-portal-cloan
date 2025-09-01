@@ -3,6 +3,7 @@
     width: 990px;
   margin: 0 auto;
   background-color: #d8edb4;
+  
 
 }
 .secondApp{
@@ -157,6 +158,10 @@
   color: rgb(0,102,0);
   text-decoration: none;
   font-weight: bold;
+  cursor: pointer;
+  border: none;
+  background-color: inherit;
+  
 }
 .over_mouse:hover{
   color: rgb(155,136,4);

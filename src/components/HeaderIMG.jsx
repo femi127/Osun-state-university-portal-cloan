@@ -1,8 +1,8 @@
 import '../App.css';
-const Header_IMG = () => {
+const HeaderIMG = () => {
   return (
     <div className='header'>
     </div>
   )
 }
-export default Header_IMG
+export default HeaderIMG

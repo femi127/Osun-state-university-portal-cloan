@@ -2,7 +2,7 @@ import Student_icon from '../Assect/Student_icon.jpg';
 import '../App.css';
 import { Link } from 'react-router-dom';
 import myFile from "../Assect/Uniosun_webpay_guide.pdf";
-function Leftpage() {
+function LeftPage() {
      const openPopup = () => {
         window.open("https://portal.uniosun.edu.ng/web_pay_tips.php", "_blank", "width=800,height=600");
   };
@@ -47,4 +47,4 @@ function Leftpage() {
            </>
     )
     }
-export default Leftpage
+export default LeftPage

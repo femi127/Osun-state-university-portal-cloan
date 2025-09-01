@@ -3,7 +3,7 @@ import Important from '../Assect/Important.jpg';
 const styles = {
   width: '30%',
 };
-function AboutUs() {
+function RightPage() {
     const openPopup = () =>{
         window.open("https://portal.uniosun.edu.ng/web_pay_tips.php", "_blank", "width=800,height=600");
     };
@@ -27,4 +27,4 @@ function AboutUs() {
     );
 }
 
-export default AboutUs 
+export default RightPage; 

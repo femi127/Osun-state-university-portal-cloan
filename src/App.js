@@ -1,6 +1,4 @@
-import React from 'react';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import './App.css';
 import LeftPage from './components/LeftPage';
 import RightPage from './components/RightPage';
 import PasswordReset from './components/PasswordReset';

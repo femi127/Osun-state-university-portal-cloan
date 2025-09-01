@@ -1,4 +1,3 @@
-import React from 'react';
 import HeaderIMG from './HeaderIMG';
 import Footer from './Footer';
 import Student_icon from '../Assect/Student_icon.jpg';

@@ -1,4 +1,3 @@
-import React  from 'react';
 import Student_icon from '../Assect/Student_icon.jpg';
 import '../App.css';
 import { Link } from 'react-router-dom';

@@ -1,4 +1,3 @@
-import React from 'react'
 import RightPage from "./RightPage";
 import LeftPage from "./LeftPage";
 import HeaderIMG from "./HeaderIMG";

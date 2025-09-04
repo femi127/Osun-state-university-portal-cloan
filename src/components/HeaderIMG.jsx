@@ -1,8 +1,18 @@
 import '../App.css';
-const HeaderIMG = () => {
+
+function HeaderIMG() {
   return (
-    <div className='header'>
-    </div>
-  )
+    <div className="header"></div>
+  );
 }
-export default HeaderIMG
+
+export default HeaderIMG;
+
+// import '../App.css';
+// const HeaderIMG = () => {
+//   return (
+//     <div className='header'>
+//     </div>
+//   )
+// }
+// export default HeaderIMG

@@ -8,7 +8,7 @@ import HeaderIMG from './components/HeaderIMG';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Osun-state-university-portal-cloan">
       <Routes>
         <Route path="/" element={<FullPage />} />
         <Route path="/rightpage" element={<RightPage />} />

@@ -2,7 +2,7 @@
   "name": "feeqtech",
   "version": "0.1.0",
   "private": true,
-  "HomePage": "https://femi127.github.io/Osun-state-university-portal-cloan",
+  "Homepage": "https://femi127.github.io/Osun-state-university-portal-cloan",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",

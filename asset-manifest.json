@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.21444805.css",
+    "main.js": "/static/js/main.424cb341.js",
+    "static/js/453.a9e3a560.chunk.js": "/static/js/453.a9e3a560.chunk.js",
+    "static/media/Uniosun_webpay_guide.pdf": "/static/media/Uniosun_webpay_guide.f2f0508e49cd1714bf7f.pdf",
+    "static/media/Student_icon.jpg": "/static/media/Student_icon.201baae3f69ec0414b86.jpg",
+    "static/media/Header.jpg": "/static/media/Header.6d25b6fe99e2689dd1e8.jpg",
+    "index.html": "/index.html",
+    "main.21444805.css.map": "/static/css/main.21444805.css.map",
+    "main.424cb341.js.map": "/static/js/main.424cb341.js.map",
+    "453.a9e3a560.chunk.js.map": "/static/js/453.a9e3a560.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21444805.css",
+    "static/js/main.424cb341.js"
+  ]
+}
